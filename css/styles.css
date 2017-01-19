@@ -1,0 +1,101 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/css-social-buttons/1.2.0/css/zocial.min.css);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+body {
+  padding-bottom: 70px;
+  font-family: 'Roboto', sans-serif;
+  color: #777;
+}
+/*.navbar {
+  margin-bottom: 10px;
+}*/
+.page-header {
+  margin: 0 20px 10px 20px;
+}
+.brand-title {
+  font-size: 1.5em;
+}
+.brand-icon {
+
+}
+.header-submit-button {
+
+}
+.header-search-button {
+  display: none;
+}
+.img-thumbnail {
+  transition: 0.5s ease-in-out;
+  margin-bottom: 0.8em;
+}
+img:hover {
+  background-color: #d0d0d0;
+  opacity: 0.8;
+}
+/*if we use anchor tag to wrap our image, the problem mention here occur: https://github.com/jschr/bootstrap-modal/issues/131 , so i simply
+removed anchor tag and applied the following class*/
+.trending-images {
+  cursor: pointer;
+}
+.modal-footer p {
+  display: inline;
+  display: none;
+  font-size: 1em;
+  margin: 0;
+  float: left;
+  padding: 6px 0px; /* to make it same as 'download' and 'close' button */
+}
+
+/* Adding color and sizing to icon at footer and overriding some bootstrap class for better mobile display*/
+.navbar-header {
+  text-align: center; /* to center '© 2017, All rights reserved' */
+}
+.footer-title{
+  font-size: 1em;
+}
+.footer-text {
+  margin-left: 0;
+  margin-right: 0;
+  align-items: center;
+}
+li.footer-icons {
+  font-size: 1.5em;
+  text-align: center;
+  box-shadow: 0px 1px 0px 0px #888;
+}
+li.footer-icons:hover {
+  color: #888;
+}
+.navbar-default .navbar-nav>li>.footer_facebook {
+    color: #3B5998;
+}
+.navbar-default .navbar-nav>li>.footer_github {
+    color: #444444;
+}
+.navbar-default .navbar-nav>li>.footer_twitter {
+    color: #33ccff;
+}
+.navbar-default .navbar-nav>li>.footer_linkedin {
+    color: #007BB6;
+}
+
+
+
+/*Booking Us form form*/
+
+/*Social Media Links*/
+.social_media_icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.social_media_icons a {
+  text-decoration:  none;
+}
+a.zocial.icon.myicon {
+    margin: 0.5em;
+}
